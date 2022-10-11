@@ -1,0 +1,38 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/christoph/ws_ros2/install/canopen_ros2_control/include/**",
+        "/home/christoph/ws_ros2/install/canopen_ros2_controllers/include/**",
+        "/home/christoph/ws_ros2/install/canopen_402_driver/include/**",
+        "/home/christoph/ws_ros2/install/canopen_proxy_driver/include/**",
+        "/home/christoph/ws_ros2/install/canopen_master_driver/include/**",
+        "/home/christoph/ws_ros2/install/canopen_base_driver/include/**",
+        "/home/christoph/ws_ros2/install/canopen_core/include/**",
+        "/home/christoph/ws_ros2/install/lely_core_libraries/include/**",
+        "/home/christoph/ws_ros2/install/canopen_interfaces/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/christoph/ws_ros2/src/codecheck/include/**",
+        "/home/christoph/ws_ros2/src/ros2_canopen/canopen_402_driver/include/**",
+        "/home/christoph/ws_ros2/src/ros2_canopen/canopen_base_driver/include/**",
+        "/home/christoph/ws_ros2/src/ros2_canopen/canopen_core/include/**",
+        "/home/christoph/ws_ros2/src/ros2_canopen/canopen_fake_slaves/include/**",
+        "/home/christoph/ws_ros2/src/ros2_canopen/canopen_master_driver/include/**",
+        "/home/christoph/ws_ros2/src/ros2_canopen/canopen_proxy_driver/include/**",
+        "/home/christoph/ws_ros2/src/ros2_canopen/canopen_ros2_control/include/**",
+        "/home/christoph/ws_ros2/src/ros2_canopen/canopen_ros2_controllers/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

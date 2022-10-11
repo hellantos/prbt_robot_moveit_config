@@ -1,0 +1,42 @@
+# MoveIt uses this configuration for controller management
+
+moveit_controller_manager: moveit_simple_controller_manager/MoveItSimpleControllerManager
+
+moveit_simple_controller_manager:
+  controller_names:
+    - arm_controller
+    - prbt_joint_1_controller
+    - prbt_joint_2_controller
+    - prbt_joint_3_controller
+    - prbt_joint_4_controller
+    - prbt_joint_5_controller
+    - prbt_joint_6_controller
+
+
+  prbt_joint_1_controller:
+    joint: prbt_joint_1
+
+  prbt_joint_2_controller:
+    joint: prbt_joint_2
+
+  prbt_joint_3_controller:
+    joint: prbt_joint_3
+
+  prbt_joint_4_controller:
+    joint: prbt_joint_4
+
+  prbt_joint_5_controller:
+    joint: prbt_joint_5
+
+  prbt_joint_6_controller:
+    joint: prbt_joint_6
+
+  arm_controller:
+    type: FollowJointTrajectory
+    joints:
+      - prbt_joint_1
+      - prbt_joint_2
+      - prbt_joint_3
+      - prbt_joint_4
+      - prbt_joint_5
+      - prbt_joint_6
